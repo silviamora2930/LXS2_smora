@@ -1,0 +1,87 @@
+    1  sudo apt-get update
+    2  sudo apt-install git
+    3  curso
+    4  sudo apt-install git
+    5  curso
+    6  sudo apt-get update
+    7  sudo apt-get install git
+    8  git config --global user.email "silen2914@gmail.com" 
+    9  git config --global user.name "silviamora" 
+   10  cat .gitconfig
+   11  ls
+   12  mkdir LXS2
+   13  cd LXS2/
+   14  ls
+   15  mkdir tareas
+   16  mkdir src
+   17  mkdir misc
+   18  ls
+   19  sudo apt-get install tree
+   20  tree
+   21  touch misc/file1
+   22  touch src/file1
+   23  touch tareas/file1
+   24  tree
+   25  pwd
+   26  vim .gitignore
+   27  cat .gitignore
+   28  tree
+   29  ls -la
+   30  git init
+   31  ls -la
+   32  tree .git
+   33  git status
+   34  git add misc/
+   35  git add src/
+   36  git add tareas/
+   37  git add .gitignore/
+   38  git add .gitignor
+   39  git add .gitignore
+   40  git statatus
+   41  git status
+   42  touch
+   43  touch misc/file2
+   44  git status
+   45  git add misc/file2
+   46  git status
+   47  git commit -m "Commit inicial del arbol de desarrollo"
+   48  ls -l
+   49  git status
+   50  git log
+   51  dmesg | less
+   52  dmesg | tail
+   53  dmesg | tail > misc/file1 
+   54  cat misc/file1
+   55  git status
+   56  git add misc/file1
+   57  dmesg | tail > misc/file2
+   58  git status
+   59  git add misc/file2
+   60  git status
+   61  git commit -m "Modificacion de archivos en misc"
+   62  git log
+   63  git remote add origin https://github.com/silviamora2930/LXS2_smora.git
+   64  git remote -v
+   65  git remote add mirepo https://github.com/silviamora2930/LXS2_smora.git
+   66  git remote -v
+   67  git push -u origin master
+   68  cd /tmp/
+   69  ls
+   70  git clone -b master https://github.com/silviamora2930/LXS2_smora.git
+   71  ls
+   72  git clone -b master https://github.com/silviamora2930/LXS2_smora.git MiReporemoto
+   73  ls -l
+   74  cd MiReporemoto
+   75  tree
+   76  git log
+   77  cd
+   78  cd LXS2/
+   79  ls
+   80  pwd
+   81  mkdir history
+   82  cd
+   83  pwd
+   84  less  .bash_history
+   85  wc .bash_history
+   86  cd LXS2/
+   87  history > history/history_05072016
