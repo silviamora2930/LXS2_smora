@@ -1,0 +1,24 @@
+    1  ls
+    2  sudo su-
+    3  sudo su -
+    4  exit
+    5  git clone https://github.com/silviamora2930/LXS"_smora.git
+
+q
+wq
+exit
+    6  git clone https://github.com/silviamora2930/LXS_smora.git
+    7  sudo apt-get install git
+    8  sudo apt-get update
+    9  git config --global user.email "email "silen2914@gmail.com"
+git config --global user.email email "silen2914@gmail.com"
+
+   10  git config --global user.email "silen2914@gmail.com"
+   11  git config --global user.name "silviamora"
+   12  ls
+   13  cd LXS2/
+   14  git clone https://github.com/silviamora2930/LXS2_smora.git
+   15  cd LXS2_smora
+   16  ls
+   17  ls -l
+   18  history > history_1207016_$HOSTNAME
