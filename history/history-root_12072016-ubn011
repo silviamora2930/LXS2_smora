@@ -1,0 +1,44 @@
+    1  ls -l
+    2  clear
+    3  fdisk -l
+    4  apt-get install nmap
+    5  ip -4 addr
+    6  clear
+    7  fdisk -l
+    8  fdisk /dev/sda
+    9  fdisk -l
+   10  pvdisplay
+   11  pvcreate /dev/sda7
+   12  pvdisplay
+   13  pvcreate /dev/sda{8,9,10}
+   14  pvdisplay
+   15  vgcreate server01 /dev/sda7
+   16  vgdisplay
+   17  vgcreate -s 16M server02 /dev/sda8 /dev/sda9
+   18  vgdisplay
+   19  history
+   20  vgextend server01 /dev/sda10
+   21  vgdisplay
+   22  lvcreate -L 500M -n data01 server01
+   23  lvcreate -L 200M server01
+   24  mkfs
+   25  ls /dev/
+   26  mkfs.ext4 /dev/server01/data01
+   27  mount
+   28  cd /mnt/
+   29  ls
+   30  mkdir respaldos
+   31  ls -l
+   32  mount
+   33  mount /dev/server01/data01 respaldos/
+   34  mount
+   35  exit
+   36  logout
+   37  chown sysadmin:sysadmin /home/sysadmin/LXS2_silviamora2930/history/history-root_1207016-$HOSTNAME
+   38  #chown sysadmin:sysadmin /home/sysadmin/LXS2_silviamora2930/history/
+   39  ls /home/sysadmin/LXS2_silviamora2930/history/
+   40  ls /home/sysadmin/
+   41  ls /home/sysadmin/LXS2_smora/
+   42  ls /home/sysadmin/LXS2_smora/history/
+   43  ls /home/sysadmin/LXS2_smora/history/history-root_12072016-$HOSTNAME
+   44  history >  /home/sysadmin/LXS2_smora/history/history-root_12072016-$HOSTNAME
