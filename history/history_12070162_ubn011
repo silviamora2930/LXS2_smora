@@ -1,0 +1,118 @@
+    1  ls
+    2  sudo su-
+    3  sudo su -
+    4  exit
+    5  git clone https://github.com/silviamora2930/LXS"_smora.git
+    6  q
+    7  wq
+    8  exit
+    9  git clone https://github.com/silviamora2930/LXS_smora.git
+   10  sudo apt-get install git
+   11  sudo apt-get update
+   12  git config --global user.email "email "silen2914@gmail.com"
+   13  git config --global user.email email "silen2914@gmail.com"
+   14  git config --global user.email "silen2914@gmail.com"
+   15  git config --global user.name "silviamora"
+   16  ls
+   17  cd LXS2/
+   18  git clone https://github.com/silviamora2930/LXS2_smora.git
+   19  cd LXS2_smora
+   20  ls
+   21  ls -l
+   22  history > history_1207016_$HOSTNAME
+   23  ls -l
+   24  git status
+   25  mv history_1207016_ubn011 history
+   26  cd history
+   27  ls
+   28  git status
+   29  git add history_1207016_ubn011 
+   30  git commit -m "History de la clase de LVM. Parte 1"
+   31  git log
+   32  git push origin master
+   33  exit
+   34  history
+   35  root
+   36  /
+   37  root/
+   38  clear
+   39  /root
+   40  clear
+   41  sudo
+   42  sudo su-
+   43  morita22
+   44  sudo su-
+   45  sudo su -
+   46  /LXS2_silviamora2930/history$ sudo su -
+   47  sudo su -
+   48  ls
+   49  cd LXS2_smora/
+   50  ls
+   51  cd history/
+   52  ls
+   53  ls 'l
+   54  ls -l
+   55  git status 
+   56  git add  history-root_12072016-ubn011 
+   57  git commit -m "History de root clase LVM clase 1"
+   58  git push -u origin master
+   59  exit
+   60  id
+   61  #sudo usermod -a -G libvirt sysadmin
+   62  #ese comando no se ejecuto porque ubunto lo hizo automaticamente en sistema como centos no hay que hacerlo
+   63  sudo su -
+   64  cd LXS2_silviamora2930
+   65  cd /tmp
+   66  git clone https://github.com/emvarg/LXS2_evargas.git
+   67  cd LXS2_evargas/
+   68  git pull origin master
+   69  ls
+   70  cd scripts/
+   71  ls
+   72  cat TMP_vir.sh 
+   73  cd scripts/
+   74  ls
+   75  ls -l
+   76  cp TMP_vir.sh ~LXS2_evargas/scripts/
+   77  cp TMP_vir.sh ~/LXS2_evargas/scripts/
+   78  cd .
+   79  cd ..
+   80  ls scripts/
+   81  git remote add origin https://github.com/silviamora2930/LXS2_smora.git
+   82  #cp TMP_vir.sh ~/LXS2_smora/
+   83  mkdir /home/sysadmin/LXS2_smora/scripts
+   84  git pull 
+   85  cp scripts/cnts00.sh /home/sysadmin/LXS2_smora/scripts/
+   86  cd /home/sysadmin/LXS2_smora/scripts/
+   87  ls
+   88  ls -l 
+   89  git status 
+   90  cd ..
+   91  ls
+   92  rm "h origin master"
+   93  git status
+   94  git add scripts/
+   95  git status
+   96  mkdir /srv/servidores
+   97  sudo su -
+   98  mkdir /servidores
+   99  mkdir /srv/servidores
+  100  sudo su -
+  101  ls scripts/
+  102  cd scripts/
+  103  ls
+  104  sudo ./cnts00.sh
+  105  ls
+  106  ls -l
+  107  sudo bash cnts00.sh
+  108  git status
+  109  git add cnts00.sh 
+  110  git commit -m "Archivo para instalar maquina en centos"
+  111  git push origin master
+  112  exit
+  113  history
+  114  clear
+  115  cd LXS2_smora
+  116  ls
+  117  ls -l
+  118  history > history_12070162_$HOSTNAME
