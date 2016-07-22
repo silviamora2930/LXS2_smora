@@ -1,0 +1,10 @@
+[   18.561530] init: failsafe main process (625) killed by TERM signal
+[   19.000335] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+[   19.024571] audit: type=1400 audit(1469087393.158:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=796 comm="apparmor_parser"
+[   19.024578] audit: type=1400 audit(1469087393.158:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=796 comm="apparmor_parser"
+[   19.024582] audit: type=1400 audit(1469087393.158:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=796 comm="apparmor_parser"
+[   19.024927] audit: type=1400 audit(1469087393.158:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=796 comm="apparmor_parser"
+[   19.608811] init: plymouth-upstart-bridge main process ended, respawning
+[   19.770737] floppy0: no floppy controllers found
+[   19.770789] work still pending
+[   20.013357] init: plymouth-splash main process (1007) terminated with status 1
